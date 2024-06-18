@@ -57,7 +57,7 @@ function createGalletyMarkup(array) {
 
   return array.map(({ url, alt }) =>
     `<li>
-        <img src = ${url} alt = ${alt} width = 300px />
+        <img src = ${url} alt = ${alt} width = 360px />
     </li>`).join("");
 }
 
