@@ -20,6 +20,8 @@ ol {
   
 }
 
+/* ==========================Task2================================ */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -32,6 +34,52 @@ ol {
 .gallery.li {
   width: calc((100% - 48px) / 3);
 }
+
+/* ==========================Task4================================ */
+
+.login-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+}
+
+.login-form > label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; 
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form > label > input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.login-form > button {
+
+}
+
+
+
+/* ==========================Task5================================ */
 
 .widget {
   width: 345px;
@@ -64,4 +112,89 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+/* ==========================Task6================================ */
+
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+}
+
+#controls :nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 50px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+#controls :nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#controls :nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 44px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: auto;
+  background: #f6f6fe;
 }
