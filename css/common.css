@@ -32,3 +32,36 @@ ol {
 .gallery.li {
   width: calc((100% - 48px) / 3);
 }
+
+.widget {
+  width: 345px;
+  height: 280px;
+  border-radius: 8px;
+  padding: 100px 88px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px; 
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
