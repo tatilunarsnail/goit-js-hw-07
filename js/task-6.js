@@ -2,16 +2,12 @@ const input = document.querySelector("#controls > :nth-child(1)");
 const createButton = document.querySelector("#controls > :nth-child(2)");
 const destroyButton = document.querySelector("#controls > :nth-child(3)");
 const boxes = document.querySelector("#boxes");
-let number = 0;
+// let number = 0;
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
-}
-
-function getInputNumber(evnt) {
-    number = evnt.target.value;  
 }
 
 function createBoxes(amount) {
@@ -36,11 +32,6 @@ function destroyBoxes() {
   boxes.innerHTML = "";
 }
 
-input.addEventListener("input", getInputNumber);
-
-createButton.addEventListener("click", () => {
-  createBoxes(number);
-  number = 0;
-});
+createButton.addEventListener("click", () => createBoxes(input.value));
 
 destroyButton.addEventListener("click", destroyBoxes);
