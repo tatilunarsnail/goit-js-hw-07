@@ -276,6 +276,14 @@ input {
   text-align: center;
 }
 
+#controls :nth-child(1):hover {
+  border: 1px solid #000;
+}
+
+#controls :nth-child(1):focus {
+  border: 1px solid #000;
+}
+
 #controls :nth-child(2) {
   display: flex;
   align-items: center;
