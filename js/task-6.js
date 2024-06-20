@@ -2,7 +2,6 @@ const input = document.querySelector("#controls > :nth-child(1)");
 const createButton = document.querySelector("#controls > :nth-child(2)");
 const destroyButton = document.querySelector("#controls > :nth-child(3)");
 const boxes = document.querySelector("#boxes");
-// let number = 0;
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
