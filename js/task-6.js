@@ -24,6 +24,7 @@ function createBoxes(amount) {
     box += `<div class="box" style="background-color: ${getRandomHexColor()}; width: ${size}px; height: ${size}px;"></div>`;
     size += 10;
   }
+  
   boxes.insertAdjacentHTML("beforeend", box);
 }
 

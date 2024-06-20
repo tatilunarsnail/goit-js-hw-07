@@ -1,4 +1,4 @@
-let box = document.querySelector(".widget");
+let box = document.querySelector("body");
 let colorName = document.querySelector(".color");
 const button = document.querySelector(".change-color");
 
