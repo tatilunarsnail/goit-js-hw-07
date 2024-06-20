@@ -38,7 +38,8 @@ function destroyBoxes() {
 
 input.addEventListener("input", getInputNumber);
 
-createButton.addEventListener("click", () => {createBoxes(number);
+createButton.addEventListener("click", () => {
+  createBoxes(number);
   number = 0;
 });
 
