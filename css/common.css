@@ -29,6 +29,10 @@ a {
   
 }
 
+input {
+  outline:none;
+}
+
 /* ==========================Task1================================ */
 
 #categories {
@@ -119,6 +123,14 @@ a {
   color: #2e2f42;
 }
 
+#name-input:hover {
+  border: 1px solid #000;
+}
+
+#name-input:focus {
+  border: 1px solid #000;
+}
+
 /* ==========================Task4================================ */
 
 .login-form {
@@ -157,6 +169,14 @@ a {
   height: 40px;
 }
 
+.login-form > label > input:hover {
+  border: 1px solid #000;
+}
+
+.login-form > label > input:focus {
+  border: 1px solid #000;
+}
+
 .login-form > button {
   display: flex;
   align-items: center;
@@ -175,6 +195,9 @@ a {
 
 }
 
+.login-form > button:hover {
+  background: #6c8cff;
+}
 
 
 /* ==========================Task5================================ */
@@ -218,6 +241,10 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+.change-color:hover {
+  background: #6c8cff;
+  }
 
 /* ==========================Task6================================ */
 
@@ -268,6 +295,10 @@ a {
   color: #fff;
 }
 
+#controls :nth-child(2):hover {
+background: #6c8cff;
+}
+
 #controls :nth-child(3) {
   display: flex;
   align-items: center;
@@ -286,6 +317,10 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+#controls :nth-child(3):hover {
+  background: #ff7070;
+  }
 
 #boxes {
   display: flex;
